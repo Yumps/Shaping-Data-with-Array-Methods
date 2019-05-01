@@ -30,7 +30,7 @@ function showBusiness(business) {
 let newStuff = businesses.map(showBusiness);
 divOutput.innerHTML += newStuff.join(`<hr>`);
 
-//////////////////////////////// Business Exercise /////////////////
+//////////////////////////////// Big Spenders Exercise /////////////////
 businesses
   .filter(business => {
     const bigSpender = business.orders.find(order => order > 9000);
